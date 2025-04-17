@@ -1,0 +1,31 @@
+
+# Qt build directories
+build-*/
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+.qtc_clangd/
+.idea/
+.vscode/
+
+# CMake build dirs (якщо використовуєш CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Можливо згенерований виконуваний файл
+*.exe
+*.out
+*.app
+*.dll
+*.so
+
+# Можливі логи та тимчасові файли
+*.log
+*.obj
+*.o
+
+# Конфігураційні або тимчасові файли
+.DS_Store
+Thumbs.db
