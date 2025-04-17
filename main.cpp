@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     MainWindow w;
     QString imagePath = QDir::currentPath() + "/icon.ico";
 
+    w.setFixedSize(505,355);
     w.setWindowFlags(Qt::FramelessWindowHint);
     w.setAttribute(Qt::WA_TranslucentBackground);
     w.setWindowTitle("Wrong Text");
