@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>571</width>
-    <height>358</height>
+    <width>504</width>
+    <height>355</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>10</y>
-      <width>550</width>
+      <width>501</width>
       <height>300</height>
      </rect>
     </property>
@@ -30,14 +30,14 @@
     </property>
     <property name="styleSheet">
      <string notr="true">QWidget{
-background:#101c18;
-border-radius:25px;
+background:#c5c4c2;
+border-radius:15px;
 }</string>
     </property>
     <widget class="QLabel" name="lbl_wrong_2">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>10</x>
        <y>20</y>
        <width>121</width>
        <height>31</height>
@@ -62,7 +62,7 @@ font-size:20px;
     <widget class="QTextEdit" name="textWrong">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>10</x>
        <y>60</y>
        <width>481</width>
        <height>61</height>
@@ -71,13 +71,14 @@ font-size:20px;
      <property name="font">
       <font>
        <pointsize>12</pointsize>
+       <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QTextEdit{
-background:#d3ede4;
+background:#adadad;
 border-radius:5px;
-color:black;
+color:white;
 }</string>
      </property>
     </widget>
@@ -101,7 +102,7 @@ color:black;
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background:#728f85;
+background:#7d7d7d;
 color:white;
 font-size:15px;
 border: 1px solid white;
@@ -109,17 +110,17 @@ border-radius:5px;
 }
 
 QPushButton:hover{
-background:#33544b;
+background:#525252;
 }</string>
      </property>
      <property name="text">
-      <string>Скопіювати</string>
+      <string>Copy </string>
      </property>
     </widget>
     <widget class="QTextEdit" name="textCorrect">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>10</x>
        <y>170</y>
        <width>481</width>
        <height>61</height>
@@ -128,13 +129,14 @@ background:#33544b;
      <property name="font">
       <font>
        <pointsize>12</pointsize>
+       <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QTextEdit{
-background:#d3ede4;
+background:#adadad;
 border-radius:5px;
-color:black;
+color:white;
 }</string>
      </property>
      <property name="readOnly">
@@ -144,7 +146,7 @@ color:black;
     <widget class="QLabel" name="lbl_correct">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>10</x>
        <y>130</y>
        <width>121</width>
        <height>31</height>
@@ -171,7 +173,7 @@ font-size:20px;
       <rect>
        <x>340</x>
        <y>250</y>
-       <width>101</width>
+       <width>131</width>
        <height>31</height>
       </rect>
      </property>
@@ -186,7 +188,7 @@ font-size:20px;
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background:#728f85;
+background:#7d7d7d;
 color:white;
 font-size:15px;
 border: 1px solid white;
@@ -194,17 +196,17 @@ border-radius:5px;
 }
 
 QPushButton:hover{
-background:#33544b;
+background:#525252;
 }</string>
      </property>
      <property name="text">
-      <string>Виправити</string>
+      <string>Press to Сorrect </string>
      </property>
     </widget>
     <widget class="QPushButton" name="brnClose">
      <property name="geometry">
       <rect>
-       <x>500</x>
+       <x>460</x>
        <y>10</y>
        <width>31</width>
        <height>31</height>
@@ -222,7 +224,7 @@ background:#33544b;
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background:#ed3752;
+background:#c5c4c2;
 border-radius:5px;
 border:1px solid white;
 color:white; 
@@ -256,7 +258,7 @@ background:#fa5757;
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background:#728f85;
+background:#7d7d7d;
 color:white;
 font-size:15px;
 border: 1px solid white;
@@ -264,11 +266,11 @@ border-radius:5px;
 }
 
 QPushButton:hover{
-background:#33544b;
+background:#525252;
 }</string>
      </property>
      <property name="text">
-      <string>Очистити</string>
+      <string>Clear</string>
      </property>
     </widget>
    </widget>
@@ -278,7 +280,7 @@ background:#33544b;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>571</width>
+     <width>504</width>
      <height>21</height>
     </rect>
    </property>
